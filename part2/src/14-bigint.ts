@@ -1,0 +1,1 @@
+const oneHundred: bigint = Bigint(100);

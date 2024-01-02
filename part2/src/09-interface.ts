@@ -15,11 +15,11 @@ printCoord({
 
 // 使用接口的方式扩展类型
 
-// interface Animal { 
+// interface Animal {
 //   name: string
 // }
 
-// interface Bear extends Animal { 
+// interface Bear extends Animal {
 //   honey: boolean
 // }
 
@@ -32,10 +32,23 @@ printCoord({
 // console.log(bear.name);
 
 // 使用类型别名扩展类型
-type Animal = {
+// type Animal = {
+//   name: string
+// }
+
+// type Bear = Animal & {
+//   honey: boolean
+// }
+
+interface Animal { 
   name: string
 }
 
-type Bear = Animal & {
-  honey: boolean
+interface Animal { 
+  age: number
+}
+
+const w: Animal = {
+  name: 'Peter',
+  age: 18
 }

@@ -6,3 +6,7 @@ printCoord({
     x: 100,
     y: 100
 });
+const w = {
+    name: 'Peter',
+    age: 18
+};

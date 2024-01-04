@@ -23,3 +23,12 @@ let s;
 // }
 // 类型断言
 s = e;
+s = e;
+// void 表示空  一般用于函数的返回值
+function fn() {
+    console.log('123');
+}
+// never 表示永远不会返回结果
+function fn2() {
+    throw new Error('报错了');
+}

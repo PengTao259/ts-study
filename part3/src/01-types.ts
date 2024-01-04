@@ -28,7 +28,17 @@ let s: string
 
 // 类型断言
 s = e as string
+s = <string>e
 
+// void 表示空  一般用于函数的返回值
+function fn(): void { 
+  console.log('123');
+}
+
+// never 表示永远不会返回结果
+function fn2(): never { 
+  throw new Error('报错了')
+}
 
 
 

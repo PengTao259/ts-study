@@ -2,6 +2,8 @@ class Person {
   // public 修饰的属性可以在任意位置访问（修改）默认值
   // private 私有属性，私有属性只能在类内部进行访问（修改）
   //   - 通过在类中添加方法使得私有属性可以被外部访问
+  // protected 受保护的属性，只能在当前类和当前类的子类中访问（修改）
+  // readonly 只读属性，无法修改
   private name: string;
   private age: number;
   constructor(name: string, age: number) { 
